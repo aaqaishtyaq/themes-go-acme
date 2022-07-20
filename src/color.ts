@@ -34,7 +34,7 @@ export const goSourceColors: BasicColor = {
 export const acmeColors: BasicColor = {
   primary: "#eaffff",
   editor: "#ffffea",
-  selection: "#B2D7F0",
+  selection: "#eeee9e",
   text: "#000000",
   shadow: "#99994c",
   inactive: "#eeee9e",
