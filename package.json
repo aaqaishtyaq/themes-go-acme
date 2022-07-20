@@ -2,7 +2,7 @@
     "name": "themes-go-acme",
     "displayName": "Acme and Go Themes (playground & src)",
     "description": "Themes that minics acme, play.golang.org and golang.org/src/",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "publisher": "aaqaishtyaq",
     "engines": {
@@ -11,13 +11,13 @@
     "packageManager": "pnpm@7.5.2",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aaqaishtyaq/themes-vscode"
+        "url": "https://github.com/aaqaishtyaq/themes-go-acme"
     },
     "files": [
         "themes"
     ],
     "bugs": {
-        "url": "https://github.com/aaqaishtyaq/themes-vscode/issues"
+        "url": "https://github.com/aaqaishtyaq/themes-go-acme/issues"
     },
     "icon": "icon.png",
     "preview": true,
@@ -56,7 +56,11 @@
     ],
     "scripts": {
         "build": "esno src/index.ts",
-        "package": "vsce package -o ./build/themes-go-acme-vscode.vsix"
+        "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
+        "vscode:prepublish": "npm run build",
+        "lint": "eslint .",
+        "package": "vsce package -o ./build/themes-go-acme-vscode.vsix",
+        "release": "npm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies"
     },
     "devDependencies": {
         "eslint": "^8.20.0",
