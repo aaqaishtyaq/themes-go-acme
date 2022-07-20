@@ -1,8 +1,8 @@
 {
     "name": "themes-go-acme",
-    "displayName": "Acme and Go Themes (playground & src)",
-    "description": "Themes that minics acme, play.golang.org and golang.org/src/",
-    "version": "0.0.2",
+    "displayName": "Acme/Go (playground & src) Themes ",
+    "description": "Themes that mimics acme, play.golang.org and golang.org/src/",
+    "version": "0.0.3",
     "license": "MIT",
     "publisher": "aaqaishtyaq",
     "engines": {
