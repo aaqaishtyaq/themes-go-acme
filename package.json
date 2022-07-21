@@ -1,8 +1,8 @@
 {
     "name": "themes-go-acme",
-    "displayName": "Acme/Go (playground & src) Themes ",
-    "description": "Themes that mimics acme, play.golang.org and golang.org/src/",
-    "version": "0.0.3",
+    "displayName": "Acme, Go Playground Themes",
+    "description": "Acme Theme, Go Playground Theme, Go Source Theme. Themes that mimics acme, go playground (play.golang.org) and go source (golang.org/src/)",
+    "version": "0.0.4",
     "license": "MIT",
     "publisher": "aaqaishtyaq",
     "engines": {
@@ -52,7 +52,12 @@
         "playground",
         "golang",
         "vscode",
-        "vscode-theme"
+        "vscode-theme",
+        "acme theme",
+        "go theme",
+        "go playground theme",
+        "go theme",
+        "light theme"
     ],
     "scripts": {
         "build": "esno src/index.ts",

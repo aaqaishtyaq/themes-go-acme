@@ -10,7 +10,7 @@ export interface BasicColor {
 }
 
 export const goPlaygroundColors: BasicColor = {
-  primary: "#eaffff",
+  primary: "#FFFFDD",
   editor: "#FFFFDD",
   selection: "#B2D7F0",
   text: "#000000",

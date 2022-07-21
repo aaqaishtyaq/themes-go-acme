@@ -1,9 +1,9 @@
-<h1 align="center">Go/Acme Themes for VS Code</h1>
+<h1 align="center">Acme, Go Playground Themes</h1>
 
 <p align="center">
-<img width="1290" alt="acme" src="https://user-images.githubusercontent.com/22131756/180066586-6897e129-ac36-4dfe-95af-de2c495cc753.png">
-<img width="1290" alt="go-playground" src="https://user-images.githubusercontent.com/22131756/180066727-9f9aa16e-93e2-4f46-b690-b66a5365e4c1.png">
-<img width="1290" alt="go-source" src="https://user-images.githubusercontent.com/22131756/180066673-0d6fe20e-5026-4f87-a80d-230d2bede232.png">
+<img width="1290" alt="acme" src="https://user-images.githubusercontent.com/22131756/180156939-2bfdf1b2-94c9-47d9-b75a-7ec29d8d6368.png">
+<img width="1290" alt="go-playground" src="https://user-images.githubusercontent.com/22131756/180156959-95f7add1-f618-400d-a1a9-4a69c7eaaff7.png">
+<img width="1290" alt="go-source" src="https://user-images.githubusercontent.com/22131756/180156977-1d3ff10f-549e-4ed0-9775-9ebb5b3cda00.png">
 <sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font | <a href="https://www.ibm.com/plex/">IBM Plex Mono</a><br>
 &nbsp;File Icons | <a href="https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons">VSCode Icons</a><br>
 Product Icons | <a href="https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons">Fluent Icons</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
