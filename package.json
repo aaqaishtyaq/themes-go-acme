@@ -2,7 +2,7 @@
     "name": "themes-go-acme",
     "displayName": "Acme, Go Playground Themes",
     "description": "Acme Theme, Go Playground Theme, Go Source Theme. Themes that mimics acme, go playground (play.golang.org) and go source (golang.org/src/)",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "license": "MIT",
     "publisher": "aaqaishtyaq",
     "engines": {
@@ -64,7 +64,7 @@
         "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
         "vscode:prepublish": "npm run build",
         "lint": "eslint .",
-        "package": "vsce package -o ./build/themes-go-acme-vscode.vsix",
+        "package": "mkdir -p build; vsce package -o ./build/themes-go-acme-vscode.vsix",
         "release": "npm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies"
     },
     "devDependencies": {
