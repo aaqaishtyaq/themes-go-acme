@@ -17,7 +17,7 @@
     "editor.hoverHighlightBackground": "#FFFFDD",
     "editor.inactiveSelectionBackground": "#D4D4C6",
     "editor.selectionBackground": "#B2D7F0",
-    "editor.selectionHighlightBackground": "#FFFFDD",
+    "editor.selectionHighlightBackground": "#B2D7F0",
     "editorGroupHeader.tabsBackground": "#FFFFDD",
     "input.background": "#FFFFDD",
     "input.border": "#000000",
