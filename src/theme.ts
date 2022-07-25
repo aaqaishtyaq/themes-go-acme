@@ -23,7 +23,7 @@ export default function getTheme({ theme, name }): Object {
       "editor.hoverHighlightBackground": colors.editor,
       "editor.inactiveSelectionBackground": colors.inactive,
       "editor.selectionBackground": colors.selection,
-      "editor.selectionHighlightBackground": colors.editor,
+      "editor.selectionHighlightBackground": colors.selection,
       "editorGroupHeader.tabsBackground": colors.primary,
       "input.background": colors.primary,
       "input.border": colors.text,
